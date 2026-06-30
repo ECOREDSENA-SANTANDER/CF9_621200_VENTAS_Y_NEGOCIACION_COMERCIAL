@@ -22,7 +22,7 @@
   flex: 0 0 auto !important
   width: 58.33333333% !important
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 .banner-principal__row .banner-principal__img 
   width: 27%
     
@@ -39,10 +39,10 @@
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $color-sistema-texto !important
 figcaption 
-    font-weight: normal !important
+  font-weight: normal !important
 
 .banner-interno__titulo__icono i
-    color: $color-primario !important
+  color: $color-primario !important
 
 
 /**************************************************************/
@@ -52,7 +52,7 @@ figcaption
   background-image:  url('../assets/curso/temas/bg/mini-portada.png') !important
   background-position: center
 .p-full-width
-  padding: 3rem 3.5rem!important;
+  padding: 3rem 3.5rem!important
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat
@@ -60,15 +60,149 @@ figcaption
   margin-inline: -3.3rem
 .bg-fondo
   &-1
-    //background-image: url(../assets/curso/bg/3.svg)
+    background-image: url('../assets/curso/temas/bg/fondo.png')
+    background-size: cover
+    background-repeat: no-repeat
 .bg-color
   &-1
     background-color: #E5EFD6 !important
+  &-2 
+    background-color: #E4F0F9 !important
+  &-3
+    background-color: #C2F4F8 !important
+  &-4
+    background-color: #DBE3CF
+  &-5
+    background-color: #B5C7D1 !important
+  &-6
+    background-color: #3A4852
+  &-7
+    background-color: #2B4865
+  &-8
+    background-color: #B1C87D
+  &-9
+    background-color: #EAEFEE
+.bgcompl
+  &-1
+    background: #0A4666
+    background-size: cover
+    background-repeat: no-repeat
+    margin-inline: -3.4rem
+    @media screen and (max-width: 992px)
+      margin-inline: -3rem  
+      background-size: cover 
+    @media screen and (max-width: 767px)
+      margin-inline: -1.4rem  
+      background-size: cover    
+
+.w-15
+  width: 15%   
+.w-fit
+  width: fit-content
+.fa-lista
+  li
+    display: flex !important
+    align-items: flex-start
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario     
+.lista-ul--color.color-acento-botones li > i:first-of-type  
+  color: $color-acento-botones    
+.lista-ul--color.color-adicional-1 li > i:first-of-type  
+  color: $color-adicional-1  
+.lista-ul--color.color-adicional-2 li > i:first-of-type  
+  color: $color-adicional-2 
+.lista-ol--cuadro.color-primario .lista-ol--cuadro__vineta
+  background-color: $color-primario
+.bg-color-acento-botones
+  background-color: $color-acento-botones
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+.bg-color-primario
+  background-color: $color-primario
+.bg-color-secundario
+  background-color: $color-secundario
+.bg-color-sistema-texto
+  background-color: $color-sistema-texto
+.text-color-sistema
+  color: $color-sistema-texto !important
+.bg-color-adicional-1
+  background-color: $color-adicional-1
 
 
+.subt
+  display: flex
+  img
+    width: 50px
+    background-color: $color-secundario
+    padding: 2px 5px
+  h3 
+    background-color: $color-acento-contenido
+    padding: 5px 15px
+.deco
+  &-1
+    position: relative
+    &:before
+      content: ""
+      display: block
+      position: absolute
+      transform: translate(-50%,-50%)
+      width: 0
+      height: 0
+      border-left: 40px solid transparent
+      border-right: 40px solid transparent
+      border-top: 15px solid #2B4865
+      left: 50%
+      top: calc(100% + 5px)
+  &-2
+    position: relative
+    &:before
+      content: ""
+      display: block
+      position: absolute
+      transform: translate(-50%,-50%)
+      width: 0
+      height: 0
+      border-left: 40px solid transparent
+      border-right: 40px solid transparent
+      border-top: 15px solid #B1C87D
+      left: 50%
+      top: calc(100% + 5px)
 
-
-
+.tabs-a
+  &__tab
+    background-color: $color-acento-botones
+.lista-ol--separador li, .lista-ul--separador li
+  border-color: #AFAFAF
+  border-bottom: solid 1px #AFAFAF
+.acordion
+  &__header
+    h3 
+      color: $white
+  &__accion__btn--a
+    background-color: $color-acento-botones
+  &__activo
+    background-color: #E4F0F9
+    .acordion__header h3 
+      color: $color-sistema-texto
+.tarjeta-audio
+  border-color: #3A4852 !important
+  &__texto
+    color: $color-sistema-texto !important
+    font-style: inherit !important
+.pasos-a
+  &__item .col.text-end
+    text-align: start !important
+  &__linea__esquina__linea
+    border-radius: 0 
+.linea-tiempo-c__header__btn, .pasos-b__header__btn--left, .pasos-b__header__btn--right, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
 
 
 /**************************************************************/
@@ -86,16 +220,11 @@ figcaption
     margin-bottom: 2em  !important  
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
-
-  
- 
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
-
-  
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
