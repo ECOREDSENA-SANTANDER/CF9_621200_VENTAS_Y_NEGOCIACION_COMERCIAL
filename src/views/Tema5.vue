@@ -15,7 +15,7 @@
           h5 Figura 5. 
           span Ecosistema de planograma y planimetría  
         figure 
-          img(src='@/assets/curso/temas/t5/fig5.svg', alt='Representación esquemática de un establecimiento comercial donde se integran la distribución física de las secciones, la ubicación de los productos y las áreas de circulación de los clientes. Se destacan diferentes categorías de venta, espacios de servicio y recorridos internos que facilitan la organización del surtido, la orientación del consumidor y la planificación estratégica del punto de venta.')
+          img(src='@/assets/curso/temas/t5/fig5.png', alt='Representación esquemática de un establecimiento comercial donde se integran la distribución física de las secciones, la ubicación de los productos y las áreas de circulación de los clientes. Se destacan diferentes categorías de venta, espacios de servicio y recorridos internos que facilitan la organización del surtido, la orientación del consumidor y la planificación estratégica del punto de venta.')
 
     .cajon.color-secundario.bg-color-1.p-4.mb-4
       p.mb-0 El planograma es una representación gráfica que muestra la ubicación específica de los productos dentro de estanterías, góndolas o espacios de exhibición en el punto de venta. A través de esta herramienta se define el orden, la cantidad y la posición de los productos con el fin de optimizar la presentación y facilitar la decisión de compra del consumidor.

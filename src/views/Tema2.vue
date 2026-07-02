@@ -17,7 +17,7 @@
     p Su aplicación es especialmente importante en entornos comerciales como supermercados, tiendas de moda, almacenes de tecnología y centros comerciales, donde la organización del espacio, la visibilidad de los productos y la ambientación influyen directamente en el comportamiento del consumidor.
 
     .row.justify-content-center.mb-5(data-aos='fade')
-      .col-lg-5.col-md-8.pe-lg-0
+      .col-lg-5.d-none.d-lg-block.pe-lg-0
         img(src='@/assets/curso/temas/t2/2.png', alt='')
       .col-lg-5.ps-lg-0
         .bg-color-5.h-100.p-xl-5.p-4.d-flex.flex-column.justify-content-center
@@ -75,8 +75,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1. Tipos de #[em merchandising]
 
-    .row.justify-content-center.align-items-center
-      
+    .row.justify-content-center.align-items-end.mb-4      
       .col-lg-8(data-aos='fade-right')
         p El #[em merchandising] comprende diversas estrategias orientadas a mejorar la experiencia de compra y optimizar la presentación de los productos dentro del punto de venta. Dependiendo de los objetivos comerciales y de las acciones implementadas, puede clasificarse en diferentes tipos que contribuyen a atraer la atención del consumidor, facilitar la localización de los productos, fortalecer la imagen de la marca e incentivar las ventas.
         .cajon.color-secundario.bg-color-1.p-4.mb-4

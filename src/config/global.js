@@ -225,7 +225,7 @@ export default {
     {
       termino: 'Creatividad',
       significado:
-        'Capacidad de generar ideas innovadoras y soluciones originales utilizadas en estrategias de marketing, promoción y exhibición de productos.',
+        'Capacidad de generar ideas innovadoras y soluciones originales utilizadas en estrategias de <em>marketing</em>, promoción y exhibición de productos.',
     },
     {
       termino: 'Dimensiones',
@@ -268,12 +268,12 @@ export default {
         'Distribución del espacio dentro del punto de venta que organiza pasillos, mobiliario y zonas de exhibición para facilitar la circulación del cliente.',
     },
     {
-      termino: 'Marketing sensorial',
+      termino: '<em>Marketing</em> sensorial',
       significado:
         'Estrategia que utiliza estímulos como colores, aromas, sonidos o texturas para influir en la experiencia de compra del consumidor.',
     },
     {
-      termino: 'Merchandising',
+      termino: '<em>Merchandising</em>',
       significado:
         'Conjunto de técnicas de presentación y promoción utilizadas en el punto de venta para aumentar la rotación de productos y estimular las ventas.',
     },
@@ -295,7 +295,7 @@ export default {
     {
       termino: 'Promoción de ventas',
       significado:
-        'Estrategia de marketing que utiliza incentivos temporales como descuentos, cupones o concursos para aumentar las ventas.',
+        'Estrategia de <em>marketing</em> que utiliza incentivos temporales como descuentos, cupones o concursos para aumentar las ventas.',
     },
     {
       termino: 'Punto de venta',
@@ -305,7 +305,7 @@ export default {
     {
       termino: 'Recursos promocionales',
       significado:
-        'Materiales utilizados para apoyar campañas de promoción, como afiches, carteles, folletos o displays.',
+        'Materiales utilizados para apoyar campañas de promoción, como afiches, carteles, folletos o <em>displays</em>.',
     },
     {
       termino: 'Señalización',
@@ -323,7 +323,7 @@ export default {
         'Estudio de los colores y su influencia en la percepción y emociones del consumidor dentro del entorno comercial.',
     },
     {
-      termino: 'Visual merchandising',
+      termino: '<em>Visual merchandising</em>',
       significado:
         'Estrategia que utiliza elementos visuales para mejorar la presentación del punto de venta y atraer clientes.',
     },

@@ -144,7 +144,7 @@
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
       h3.mb-0 Recursos promocionales
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-end
       .col-lg-9(data-aos='fade-right')
         p Son los elementos que permiten comunicar las promociones dentro del establecimiento, como carteles, etiquetas de precio, exhibidores, material #[em POP], pantallas digitales y avisos promocionales. Su función es destacar los productos y facilitar la decisión de compra del cliente.
         .cajon.color-secundario.bg-color-1.p-4.p-lg-5
@@ -158,7 +158,7 @@
       h2 1.3. Imagen e identidad del punto de venta
 
     .row.justify-content-center.mb-4(data-aos='fade')
-      .col-lg-5.col-md-8.pe-lg-0
+      .col-lg-5.d-none.d-lg-block.pe-lg-0
         img(src='@/assets/curso/temas/t1/4.png', alt='')
       .col-lg-7.ps-lg-0
         .bg-color-5.h-100.p-xl-5.p-4.d-flex.flex-column.justify-content-center
@@ -441,12 +441,12 @@
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.5. Escenografía
 
-    .row.justify-content-center.align-items-center.mb-4      
+    .row.justify-content-center.align-items-end.mb-4      
       .col-lg-6(data-aos='fade-right')
         p La escenografía en el punto de venta se refiere al diseño visual del espacio comercial mediante la utilización de elementos decorativos, iluminación, colores, mobiliario y materiales que crean una ambientación específica para destacar los productos exhibidos.
         .cajon.color-secundario.bg-color-1.p-4.mb-4
           p.mb-0 Esta estrategia busca generar un ambiente atractivo que capte la atención del cliente y refuerce la identidad visual del establecimiento. A través de la escenografía se pueden comunicar emociones, valores de marca y conceptos comerciales que influyen en la percepción del consumidor.
-        p La escenografía también permite crear experiencias de compra más atractivas, ya que el entorno visual puede estimular el interés del cliente y motivar la interacción con los productos.
+        p.mb-0 La escenografía también permite crear experiencias de compra más atractivas, ya que el entorno visual puede estimular el interés del cliente y motivar la interacción con los productos.
       .col-lg-6.d-none.d-lg-block(data-aos='fade-left') 
         img(src='@/assets/curso/temas/t1/7.png', alt='')
 

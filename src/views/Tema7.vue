@@ -10,7 +10,7 @@
     p.mb-4 Es una estrategia de #[em marketing] utilizada en los establecimientos comerciales para mejorar la presentación visual del punto de venta. Su objetivo es atraer la atención del cliente, destacar los productos y generar una experiencia de compra más atractiva dentro de la tienda. A través del uso de elementos como iluminación, colores, vitrinas, señalización y organización de los productos, las empresas buscan influir en la percepción del consumidor y estimular la decisión de compra.
 
     .row.justify-content-center(data-aos='fade')
-      .col-lg-5.col-md-8.pe-lg-0
+      .col-lg-5.d-none.d-lg-block.pe-lg-0
         img(src='@/assets/curso/temas/t7/1.png', alt='')
       .col-lg-7.ps-lg-0
         .bg-color-4.h-100.p-xl-5.p-4.d-flex.flex-column.justify-content-center

@@ -18,7 +18,7 @@
         img(src='@/assets/curso/temas/t4/2.png', alt='')
 
     .row.justify-content-center(data-aos='fade')
-      .col-lg-5.col-md-8.pe-lg-0
+      .col-lg-5.d-none.d-lg-block.pe-lg-0
         img(src='@/assets/curso/temas/t4/3.png', alt='')
       .col-lg-7.ps-lg-0
         .bg-color-4.h-100.p-xl-5.p-4.d-flex.flex-column.justify-content-center

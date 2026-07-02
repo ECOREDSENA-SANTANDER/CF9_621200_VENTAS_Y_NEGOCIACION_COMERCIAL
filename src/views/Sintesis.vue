@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    p La síntesis aborda la gestión estratégica del espacio comercial para mejorar la experiencia de compra y apoyar los objetivos de venta. Incluye el estudio del establecimiento comercial, la organización del punto de venta, el merchandising, las técnicas de exhibición, el visual merchandising, el vitrinismo y las estrategias promocionales. 
+    p La síntesis aborda la gestión estratégica del espacio comercial para mejorar la experiencia de compra y apoyar los objetivos de venta. Incluye el estudio del establecimiento comercial, la organización del punto de venta, el #[em merchandising], las técnicas de exhibición, el visual #[em merchandising], el vitrinismo y las estrategias promocionales. 
 
     p Asimismo, incorpora herramientas de planificación, gestión y evaluación que permiten diseñar, implementar y medir acciones orientadas a aumentar la visibilidad de los productos, atraer clientes y fortalecer los resultados comerciales de la organización.
     

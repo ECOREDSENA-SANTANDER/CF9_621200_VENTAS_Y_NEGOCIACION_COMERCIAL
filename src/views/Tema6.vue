@@ -40,7 +40,7 @@
               img(src='@/assets/curso/temas/t6/tarj2-1.svg', alt='')
           .w-fit.bg-color-secundario.text-center.mx-auto.py-1.px-4.px-lg-5.mb-3
             h4.mb-0 Inventario permanente
-          p Permite registrar de forma continua las entradas y salidas de productos, manteniendo actualizado el stock disponible en todo momento.
+          p Permite registrar de forma continua las entradas y salidas de productos, manteniendo actualizado el #[em stock] disponible en todo momento.
       .col-lg-4.col-md-6.mb-3.mb-lg-0
         .tarjeta.bg-color-1.h-100.p-4
           .row.justify-content-center.mb-4
