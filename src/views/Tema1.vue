@@ -255,8 +255,7 @@
           TarjetaAudio.color-acento-botones.mb-4(
             texto="Pódcast: La importancia de la antropometría"
             :audio="require_src('@/assets/curso/temas/t1/Podcast_CF9-621200.mp3')"
-            @audio-hover="mostrarIndicadorTarjetaAudio = false"
-          )
+            @audio-hover="mostrarIndicadorTarjetaAudio = false")
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
           p.mb-0 Para complementar los conocimientos abordados sobre la antropometría y su aplicación en el punto de venta, se invita a visitar el pódcast asociado a esta temática. En este recurso encontrará una explicación práctica y contextualizada sobre la importancia de adaptar los espacios comerciales a las características físicas de los usuarios, favoreciendo la accesibilidad, la comodidad y una experiencia de compra satisfactoria.
 
