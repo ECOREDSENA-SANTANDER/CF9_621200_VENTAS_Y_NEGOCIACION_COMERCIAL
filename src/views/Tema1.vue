@@ -254,7 +254,7 @@
         .bg-white.tarjeta.p-4
           TarjetaAudio.color-acento-botones.mb-4(
             texto="Pódcast: La importancia de la antropometría"
-            :audio="require_src('@/assets/curso/temas/t1/audio-ej.mp3')"
+            :audio="require_src('@/assets/curso/temas/t1/Podcast_CF9-621200.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
